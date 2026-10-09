@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Devarshi M — Data scientist. ML systems, experimentation, and product-minded analytics." />
+  <title>Devarshi M · Data Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#">Devarshi M</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="resume.html">View résumé</a>
+      </nav>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="sr-only">Menu</span>
+        <span aria-hidden="true"></span>
+      </button>
+    </div>
+    <div id="mobile-nav" class="mobile-nav" hidden>
+      <a href="#work">Work</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.html">View résumé</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Data scientist</p>
+          <h1>I turn messy signals into decisions people can trust.</h1>
+          <p class="lead">
+            I build models, experiments, and data products—from exploration through production—with
+            clear metrics, reproducible pipelines, and stakeholders who know what the numbers mean.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">Selected work</a>
+            <a class="btn btn-ghost" href="resume.html">Download-friendly résumé</a>
+          </div>
+          <ul class="hero-meta">
+            <li>Python · SQL · Spark</li>
+            <li>ML · Causal inference · LLM eval</li>
+            <li>Based in India (UTC+5:30)</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit">
+            <span class="dot d1"></span>
+            <span class="dot d2"></span>
+            <span class="dot d3"></span>
+            <svg viewBox="0 0 200 200" class="chart-ring">
+              <circle cx="100" cy="100" r="78" fill="none" stroke="currentColor" stroke-width="1" opacity="0.2" />
+              <path d="M100 22 A78 78 0 0 1 178 100" fill="none" stroke="url(#grad)" stroke-width="3" stroke-linecap="round" />
+              <defs>
+                <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#3d9a8b" />
+                  <stop offset="100%" stop-color="#c4a35a" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Selected work</h2>
+          <p>Product-minded data science—where model quality meets operational reality.</p>
+        </header>
+
+        <article class="project-card featured">
+          <div class="project-tag">System design · AI product</div>
+          <h3>AI-assisted recruitment screening</h3>
+          <p>
+            End-to-end design for high-volume hiring: parse resumes, score against versioned rubrics,
+            async candidate Q&amp;A with a strict question budget, shortlists with confidence and audit replay.
+            Built for 500 applications/day per role without sacrificing manager trust or compliance.
+          </p>
+          <ul class="project-highlights">
+            <li>Queue-based pipeline with idempotent ingest and dead-letter visibility</li>
+            <li>Prompt-injection mitigations—resume as untrusted data, decisions in code</li>
+            <li>Fairness, PII retention, and replay from requirement + prompt + model versions</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/devarshi-m/recruitment-screening-assessment" rel="noopener noreferrer">Repository</a>
+            <a href="https://github.com/devarshi-m/recruitment-screening-assessment/blob/main/system-design.md" rel="noopener noreferrer">System design doc</a>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-tag">Experimentation</div>
+            <h3>Metric design for growth loops</h3>
+            <p>
+              Defined guardrail and success metrics for funnel changes—power analysis, sequential tests,
+              and dashboards that separate novelty from sustained lift.
+            </p>
+            <p class="project-note"><em>Replace with your project link and outcomes.</em></p>
+          </article>
+          <article class="project-card">
+            <div class="project-tag">ML engineering</div>
+            <h3>Feature store &amp; batch scoring</h3>
+            <p>
+              Offline/online parity for ranking features, SLA-aware batch jobs, and drift monitors
+              tied to business KPIs—not only model AUC.
+            </p>
+            <p class="project-note"><em>Replace with your project link and outcomes.</em></p>
+          </article>
+          <article class="project-card">
+            <div class="project-tag">Analytics</div>
+            <h3>Executive narrative from raw tables</h3>
+            <p>
+              Self-serve semantic layer and curated “decision views” so leaders ask better questions
+              instead of debating spreadsheet versions.
+            </p>
+            <p class="project-note"><em>Replace with your project link and outcomes.</em></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume-teaser">
+      <div class="wrap resume-teaser-grid">
+        <div>
+          <h2>Resume</h2>
+          <p>
+            A one-page overview of experience, skills, and education—formatted for screen and print.
+            Update <code>resume.html</code> with your latest roles and metrics.
+          </p>
+          <a class="btn btn-primary" href="resume.html">Open full résumé</a>
+        </div>
+        <dl class="skill-list">
+          <div>
+            <dt>Languages &amp; tools</dt>
+            <dd>Python, R, SQL, dbt, Airflow, Spark, Git</dd>
+          </div>
+          <div>
+            <dt>Modeling</dt>
+            <dd>Regression, classification, uplift, time series, NLP, LLM evaluation</dd>
+          </div>
+          <div>
+            <dt>Strengths</dt>
+            <dd>Experiment design, stakeholder communication, production ML hygiene</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="wrap contact-inner">
+        <h2>Get in touch</h2>
+        <p>Open to data science roles, consulting, and interesting applied ML problems.</p>
+        <ul class="contact-links">
+          <li>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <span class="hint">→ your email</span>
+          </li>
+          <li>
+            <a href="https://github.com/devarshi-m" rel="noopener noreferrer">github.com/devarshi-m</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/your-profile" rel="noopener noreferrer">LinkedIn</a>
+            <span class="hint">→ your profile URL</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Devarshi M. Built for <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

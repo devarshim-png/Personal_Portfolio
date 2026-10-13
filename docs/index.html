@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Devarshi M — Data scientist. ML systems, experimentation, and product-minded analytics." />
-  <title>Devarshi M · Data Scientist</title>
+  <meta name="description" content="Devarshi Mewada — Data analyst and data engineer. Redshift, Power BI, SQL, Python, and stakeholder-ready analytics." />
+  <title>Devarshi Mewada · Data Analyst &amp; Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
@@ -15,7 +15,7 @@
 
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="#">Devarshi M</a>
+      <a class="logo" href="#">Devarshi Mewada</a>
       <nav class="nav" aria-label="Primary">
         <a href="#work">Work</a>
         <a href="#resume">Resume</a>
@@ -39,20 +39,20 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Data scientist</p>
-          <h1>I turn messy signals into decisions people can trust.</h1>
+          <p class="eyebrow">Data analyst · Data engineer</p>
+          <h1>From warehouse tables to dashboards stakeholders can trust.</h1>
           <p class="lead">
-            I build models, experiments, and data products—from exploration through production—with
-            clear metrics, reproducible pipelines, and stakeholders who know what the numbers mean.
+            I build reporting on Amazon Redshift and Power BI, model transactional data, and deliver SQL,
+            semantic models, and written recommendations for leads, GA4, Salesforce, and product usage at York IE.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#work">Selected work</a>
-            <a class="btn btn-ghost" href="resume.html">Download-friendly résumé</a>
+            <a class="btn btn-ghost" href="assets/Devarshi_Mewada_CV.pdf">Download CV (PDF)</a>
           </div>
           <ul class="hero-meta">
-            <li>Python · SQL · Spark</li>
-            <li>ML · Causal inference · LLM eval</li>
-            <li>Based in India (UTC+5:30)</li>
+            <li>SQL · Python · Redshift</li>
+            <li>Power BI · Tableau · Fabric</li>
+            <li>Ahmedabad, India</li>
           </ul>
         </div>
         <div class="hero-visual" aria-hidden="true">
@@ -79,55 +79,47 @@
       <div class="wrap">
         <header class="section-head">
           <h2>Selected work</h2>
-          <p>Product-minded data science—where model quality meets operational reality.</p>
+          <p>Analytics engineering and BI—read-only SQL, semantic models, and operational dashboards.</p>
         </header>
 
         <article class="project-card featured">
-          <div class="project-tag">System design · AI product</div>
-          <h3>AI-assisted recruitment screening</h3>
+          <div class="project-tag">Amazon Redshift · NLP to SQL</div>
+          <h3>REDSOR — natural language to SQL</h3>
           <p>
-            End-to-end design for high-volume hiring: parse resumes, score against versioned rubrics,
-            async candidate Q&amp;A with a strict question budget, shortlists with confidence and audit replay.
-            Built for 500 applications/day per role without sacrificing manager trust or compliance.
+            Shared analytics workflow that turns a plain-English question into one read-only SELECT on Redshift,
+            with domain routing for leads, GA4, and Salesforce, documented joins, and MRR logic.
           </p>
           <ul class="project-highlights">
-            <li>Queue-based pipeline with idempotent ingest and dead-letter visibility</li>
-            <li>Prompt-injection mitigations—resume as untrusted data, decisions in code</li>
-            <li>Fairness, PII retention, and replay from requirement + prompt + model versions</li>
+            <li>Least-privilege IAM and SELECT grants for a shared read-only warehouse role</li>
+            <li>33-question evaluation set with failure logging and join/literal corrections</li>
+            <li>Every answer ships with SQL, grain, and caveats stakeholders can verify</li>
           </ul>
-          <div class="project-links">
-            <a href="https://github.com/devarshi-m/recruitment-screening-assessment" rel="noopener noreferrer">Repository</a>
-            <a href="https://github.com/devarshi-m/recruitment-screening-assessment/blob/main/system-design.md" rel="noopener noreferrer">System design doc</a>
-          </div>
         </article>
 
         <div class="project-grid">
           <article class="project-card">
-            <div class="project-tag">Experimentation</div>
-            <h3>Metric design for growth loops</h3>
+            <div class="project-tag">Power BI · GA4</div>
+            <h3>Website performance dashboard</h3>
             <p>
-              Defined guardrail and success metrics for funnel changes—power analysis, sequential tests,
-              and dashboards that separate novelty from sustained lift.
+              Semantic model for sessions, users, page views, bounce rate, channels, and browsers—with
+              centralized DAX measures, date slicer, and row-level security.
             </p>
-            <p class="project-note"><em>Replace with your project link and outcomes.</em></p>
           </article>
           <article class="project-card">
-            <div class="project-tag">ML engineering</div>
-            <h3>Feature store &amp; batch scoring</h3>
+            <div class="project-tag">Microsoft Fabric</div>
+            <h3>Lakehouse migration playbook</h3>
             <p>
-              Offline/online parity for ranking features, SLA-aware batch jobs, and drift monitors
-              tied to business KPIs—not only model AUC.
+              Compared Import, DirectQuery, and Direct Lake; documented upstream blockers and a seven-phase
+              plan to rebind Lakehouse-backed reports without rebuilding from scratch.
             </p>
-            <p class="project-note"><em>Replace with your project link and outcomes.</em></p>
           </article>
           <article class="project-card">
-            <div class="project-tag">Analytics</div>
-            <h3>Executive narrative from raw tables</h3>
+            <div class="project-tag">Tableau · GenAI ops</div>
+            <h3>Cursor usage analytics</h3>
             <p>
-              Self-serve semantic layer and curated “decision views” so leaders ask better questions
-              instead of debating spreadsheet versions.
+              Dashboard for employee Cursor AI usage—tokens, cost, active days, and engagement—to flag
+              low adoption and support repeatable monthly reporting.
             </p>
-            <p class="project-note"><em>Replace with your project link and outcomes.</em></p>
           </article>
         </div>
       </div>
@@ -138,23 +130,26 @@
         <div>
           <h2>Resume</h2>
           <p>
-            A one-page overview of experience, skills, and education—formatted for screen and print.
-            Update <code>resume.html</code> with your latest roles and metrics.
+            Data Engineer at York IE (full time). Previously Data Scientist Intern. M.Sc. IT at GLS University,
+            Ahmedabad. Full details match my CV—view online or download the PDF.
           </p>
-          <a class="btn btn-primary" href="resume.html">Open full résumé</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="resume.html">Open full résumé</a>
+            <a class="btn btn-ghost" href="assets/Devarshi_Mewada_CV.pdf">Download PDF</a>
+          </div>
         </div>
         <dl class="skill-list">
           <div>
-            <dt>Languages &amp; tools</dt>
-            <dd>Python, R, SQL, dbt, Airflow, Spark, Git</dd>
+            <dt>Languages</dt>
+            <dd>SQL, Python</dd>
           </div>
           <div>
-            <dt>Modeling</dt>
-            <dd>Regression, classification, uplift, time series, NLP, LLM evaluation</dd>
+            <dt>BI &amp; cloud</dt>
+            <dd>Power BI, DAX, Tableau, Amazon Redshift, AWS, Microsoft Fabric</dd>
           </div>
           <div>
-            <dt>Strengths</dt>
-            <dd>Experiment design, stakeholder communication, production ML hygiene</dd>
+            <dt>Focus</dt>
+            <dd>Semantic models, read-only SQL, KPI design, RLS, technical documentation</dd>
           </div>
         </dl>
       </div>
@@ -163,18 +158,19 @@
     <section id="contact" class="section contact">
       <div class="wrap contact-inner">
         <h2>Get in touch</h2>
-        <p>Open to data science roles, consulting, and interesting applied ML problems.</p>
+        <p>Open to data analyst, analytics engineering, and BI roles.</p>
         <ul class="contact-links">
           <li>
-            <a href="mailto:hello@example.com">hello@example.com</a>
-            <span class="hint">→ your email</span>
+            <a href="mailto:devarshimewada@gmail.com">devarshimewada@gmail.com</a>
           </li>
           <li>
-            <a href="https://github.com/devarshi-m" rel="noopener noreferrer">github.com/devarshi-m</a>
+            <a href="tel:+919586155555">+91 9586155555</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/your-profile" rel="noopener noreferrer">LinkedIn</a>
-            <span class="hint">→ your profile URL</span>
+            <a href="https://www.linkedin.com/in/devarshimewada22" rel="noopener noreferrer">LinkedIn · devarshimewada22</a>
+          </li>
+          <li>
+            <a href="https://github.com/devarshim-png" rel="noopener noreferrer">github.com/devarshim-png</a>
           </li>
         </ul>
       </div>
@@ -183,7 +179,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>© <span id="year"></span> Devarshi M. Built for <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+      <p>© <span id="year"></span> Devarshi Mewada · Ahmedabad, India · <a href="https://pages.github.com/">GitHub Pages</a></p>
     </div>
   </footer>
 
